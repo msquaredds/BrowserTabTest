@@ -1,8 +1,5 @@
-import time
-
 import streamlit as st
 
 st.title("Home Page")
 
-with st.spinner():
-    time.sleep(3)
+st.write("This page doesn't do anything")

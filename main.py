@@ -23,9 +23,12 @@ def main():
     with col_title[1]:
         st.image("Sharp_Shares_Title_Logo_Subtitle_06_27_2025.png")
 
-    pages = [st.Page("pages/Home.py",
+    pages = [st.Page("Home.py",
                      title="Home",
-                     icon="🏠")]
+                     icon="🏠"),
+             st.Page("Test.py",
+                     title="Test",
+                     icon="🕒")]
     pg = st.navigation(pages)
     pg.run()
 
