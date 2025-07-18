@@ -10,6 +10,8 @@ def _sleep_and_show_spinner():
 
 def main():
     st.title("Spinner Test Page")
+    with st.spinner():
+        time.sleep(3)
 
     st.button("Test Timer", on_click=_sleep_and_show_spinner)
 
