@@ -1,4 +1,4 @@
-# from pyasn1_modules.rfc5652 import id_contentType
+from pyasn1_modules.rfc5652 import id_contentType
 
 import streamlit as st
 
