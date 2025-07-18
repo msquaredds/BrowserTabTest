@@ -10,9 +10,12 @@ def _sleep_and_show_spinner():
 
 def main():
     st.title("Spinner Test Page")
-    with st.spinner():
-        time.sleep(3)
 
+    # THIS KEEPS THE TAB TITLE / IMAGE
+    # with st.spinner():
+    #     time.sleep(3)
+
+    # THIS DOES NOT KEEP THE TAB TITLE / IMAGE
     st.button("Test Timer", on_click=_sleep_and_show_spinner)
 
 
