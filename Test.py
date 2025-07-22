@@ -4,8 +4,8 @@ import streamlit as st
 
 
 def _sleep_and_show_spinner():
-    with st.spinner():
-        time.sleep(3)
+    # with st.spinner():
+    time.sleep(3)
 
 
 def main():
